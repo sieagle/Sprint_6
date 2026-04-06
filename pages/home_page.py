@@ -1,8 +1,8 @@
 import allure
 from locator.home_page_locators import HomePageLocators
-from pages.main_page import MainPage
+from pages.base_page import BasePage
 
-class HomePage(MainPage):
+class HomePage(BasePage):
     
     def open(self, url):
         self.driver.get(url)

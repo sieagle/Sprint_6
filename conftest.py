@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from dictionary.main_page_dictionary import Urls
+from dictionary.base_page_dictionary import Urls
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 

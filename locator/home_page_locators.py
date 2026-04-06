@@ -12,16 +12,7 @@ class HomePageLocators:
         (By.ID, 'accordion__heading-6'),
         (By.ID, 'accordion__heading-7')
     ]
-    # question_buttons = {
-    #     0: (By.XPATH, ".//div [@id = 'accordion__heading-0']"),
-    #     1: (By.XPATH, ".//div [@id = 'accordion__heading-1']"),
-    #     2: (By.XPATH, ".//div [@id = 'accordion__heading-2']"),
-    #     3: (By.XPATH, ".//div [@id = 'accordion__heading-3']"),
-    #     4: (By.XPATH, ".//div [@id = 'accordion__heading-4']"),
-    #     5: (By.XPATH, ".//div [@id = 'accordion__heading-5']"),
-    #     6: (By.XPATH, ".//div [@id = 'accordion__heading-6']"),
-    #     7: (By.XPATH, ".//div [@id = 'accordion__heading-7']")
-    # }
+
     #Текст вопросов
     question_text_locator = [
         (By.XPATH, ".//div[text()='Сколько это стоит? И как оплатить?']"),
@@ -51,7 +42,7 @@ class HomePageLocators:
     bottom_order_button = (By.XPATH, "(.//button[text() = 'Заказать'])[2]")
     
     #Кнопка принять куки
-    cookie_botton = (By.XPATH, ".//button [text() = 'да все привыкли']")
+    cookie_botton = (By.XPATH, ".//button[text() = 'да все привыкли']")
 
     #Название вопросов
     questions_title = (By.XPATH, "//div[text() = 'Вопросы о важном']")

@@ -1,10 +1,8 @@
 from locator.order_page_locators import OrderPageLocators
 import allure
-from pages.main_page import MainPage
-from pages.home_page import HomePage
-from selenium.webdriver.support import expected_conditions as EC
+from pages.base_page import BasePage
 
-class OrderPage(MainPage):
+class OrderPage(BasePage):
 
     @allure.step('Заполнение поля имя')
     def send_name_to_name_field(self, text):
